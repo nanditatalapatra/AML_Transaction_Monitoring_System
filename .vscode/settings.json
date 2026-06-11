@@ -1,0 +1,25 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5433,
+            "driver": "PostgreSQL",
+            "name": "postgres",
+            "database": "postgres",
+            "username": "postgres"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "aml_monitoring",
+            "database": "aml_monitoring",
+            "username": "nanditatalapatra"
+        }
+    ]
+}
